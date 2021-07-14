@@ -1,0 +1,137 @@
+/* /* header style */
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+
+}
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* top player style */
+
+h1{
+    margin: 0;
+    color: white;
+
+}
+.top-banner{
+    margin-right: 141px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
+.top-banner p a{
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: white;
+    padding: 30px;
+    margin-top: 100px;
+    width: 168px;
+    height: 44px;
+
+}
+.top-banner p{
+    margin-top: 50px;
+}
+.fas.fa-arrow-right{
+    margin-right: 50px;
+}
+.top-img img{
+    width: 556px;
+    height: 438px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 27px;
+
+}
+.player{
+    width: 330px;
+    height: 474px;
+    border: 2px  ghostwhite;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+.players img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px 15px 15px;
+
+}
+.player-defination{
+    padding-left: 15px;
+}
+/* Bonus-contain */
+.bonus-contain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.messi{
+    width: 567px;
+    height: 427px;
+    margin-top: 244px;
+    margin-left: 182px;
+    margin-bottom: 100px;
+}
+.messi button{
+    width: 173px;
+    height: 44px;
+    background-color: #E02C6D;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+.messi button:hover{
+    background-color: white;
+}
+.bonus-contain img{
+    width: 567px;
+    height: 427px;
+    margin-right: 156px;
+    margin-left: 69px;
+    margin-top: 165px;
+    margin-bottom: 100px;
+}
+.bonus-contain img:hover{
+    transform: scale(1.2);
+}
+/* ---------footer--------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 155px;
+}
+.social-logo img{
+    margin: 0 14px 14px 14px;
+}
+/* Media Queries */
+
+/* mobile */
+@media only screen and (max-width:668px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-img img{
+        width: 10px;
+        height: 10px;
+    }
+}
